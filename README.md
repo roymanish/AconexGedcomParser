@@ -1,8 +1,8 @@
 ==================================================
-Aconex-Coding-Challenge - GEDCOM Parser Challenge
+#Aconex-Coding-Challenge - GEDCOM Parser Challenge
 ==================================================
 
-Why this Project?
+#Why this Project?
 =========================================
 If I be honest, I felt this one was the easiest of all the problems. And with the limited amount of time given i wanted to focus more on the designing part of it. 
 So that I can make the solution very generic and easily extendible in nature. The enclosed program has interface methods for any kind of document parsing. IDocumentParser
@@ -11,7 +11,7 @@ a kind of output document expected. This program can be extended to support Text
 and implementation classes only has to take care of how they want to process it.
 
 
-How to run it?
+#How to run it?
 =========================================
 Import the extracted zip to eclipse as a Java Project.
 
@@ -25,7 +25,7 @@ To Run the test cases.
 	Right click on the project Run As->JUnit Test
 	
 	
-Design Approach
+#Design Approach
 ==========================================
 It has two main parts parser API and Client program which will use it. From the API a interface(IDocumentParser) is exposed to the client to call its method
 parseDocument which takes two arguments input document path and output document path.
